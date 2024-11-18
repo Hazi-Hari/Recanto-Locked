@@ -371,28 +371,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
     flex-direction: column;
     font-family: wetarial;
     font-size: 2.5rem;
     gap: 3rem;
     border: var(--laranja-escuro) dashed 2rem;
     border-radius: 1rem;
-    padding: 7rem;
+    padding: 5rem;
     background-color:var(--cinza-escuro-meio-claro);
     color: var(--laranja);
+    width: 86%;
 
 }
 
 .main-video-corpo{
     background-color: rgb(48, 48, 48);
-    padding: 7rem;
+    padding: 5rem;
     border: var(--laranja-meio-claro) solid;
     border-radius: 2rem;
 }
 
 .main-video-corpo > video{
-    width: 60rem;
+    width: 86rem;
     border-radius: 1rem;
 }
 
