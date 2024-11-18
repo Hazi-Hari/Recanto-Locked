@@ -23,28 +23,6 @@ O projeto se trata de um site que tem o proposito das pessoas poderem chamar cha
 
     --cinza-escuro-meio-claro:rgb(39, 39, 39);
 
-<span style="color: rgb(253, 114, 0);">@@@@@@@@@</span>  
-
-<span style="color: rgb(253, 137, 41);">@@@@@@@@@</span>
-
-<span style="color: rgb(255, 81, 0);">@@@@@@@@@</span>  
-
-<span style="color: white;">@@@@@@@@@</span>
-
-<span style="color: black;">@@@@@@@@@</span>  
-
-<span style="color: rgba(44, 44, 44, 0.562);">@@@@@@@@@</span>
-
-<span style="color: rgb(39, 204, 75);">@@@@@@@@@</span>  
-
-<span style="color: rgb(39, 130, 204);">@@@@@@@@@</span>
-
-<span style="color: rgb(24, 24, 24);">@@@@@@@@@</span>
-
-<span style="color: rgb(39, 39, 39);">@@@@@@@@@</span>
-
-
-
 ## tipografia usada
 [WETARIAL](https://www.dafont.com/pt/wet-arial.font)
 
@@ -67,9 +45,15 @@ O projeto se trata de um site que tem o proposito das pessoas poderem chamar cha
 ## Informaçoes de contatos
 [![icone do site](./assets/img/markdown-img/github.png)](https://github.com/Hazi-Hari)- Hazi-Hari
 
-![whatsapp](./assets/img/icones/whatsapp-branco.png) - (61) 99838-5846
+![whatsapp](./assets/img/icones/whatsapp-branco.png) - (XX) XXXXX-XXXX
+
+tirei o whatsapp porque alguns amigos na internet vao olhar. É eles nao tem meu whatsapp.
 
 ## Link de acesso
+
+
+
+[https://hazi-hari.github.io/Recanto-Locked/](https://hazi-hari.github.io/Recanto-Locked/)
 
 ## Programas usados
 ![html](./assets/img/markdown-img/HTML.png)
