@@ -3,25 +3,25 @@
 O projeto se trata de um site que tem o proposito das pessoas poderem chamar chaveiros proficionais para resolverem seus problemas. Em alguma situação de extrema emergencia, ela poderar ver os contatos ou ate mesmo preencher um formulario, contendo expecificações dos seus problemas. É rapidamente um profissional adequando para o problema chegara no local, para resolver o problema da melhor forma possivel. 
 
 ## Paleta de cores usadas no site
-    --laranja:rgb(253, 114, 0);
+        laranja:rgb(253, 114, 0);
 
-    --laranja-meio-claro:rgb(253, 137, 41);
+        laranja-meio-claro:rgb(253, 137, 41);
 
-    --laranja-escuro:rgb(255, 81, 0);
+        laranja-escuro:rgb(255, 81, 0); 
 
-    --branco:white;
+        branco:white;
 
-    --preto:black;
+        preto:black;
 
-    --cinza:rgba(44, 44, 44, 0.562);
+        cinza:rgba(44, 44, 44, 0.562);
 
-    --verde:rgb(39, 204, 75);
+        verde:rgb(39, 204, 75);
 
-    --azul-claro:rgb(39, 130, 204);
+        azul-claro:rgb(39, 130, 204);
 
-    --cinza-escuro:rgb(24, 24, 24);
+        cinza-escuro:rgb(24, 24, 24);
 
-    --cinza-escuro-meio-claro:rgb(39, 39, 39);
+        cinza-escuro-meio-claro:rgb(39, 39, 39);
 
 ## tipografia usada
 [WETARIAL](https://www.dafont.com/pt/wet-arial.font)
