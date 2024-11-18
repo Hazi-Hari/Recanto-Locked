@@ -84,3 +84,15 @@ body{
 }
 /*=================================================================================*/
 
+.whats{
+
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    transition: 0.5s;  
+}
+
+.whats:hover{
+    transform: scale(1.1);
+    
+}
