@@ -1,0 +1,186 @@
+main{
+    width: 100%;
+
+    background-image: url(../img/background/./background-mecanico.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#main-base-tamanho-do-formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 4rem;
+    margin-top: 15rem;
+
+}
+
+.main-corpo-do-formulario{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-corpo-do-formulario > form{
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-formulario > h1{
+    font-size: 4.5rem;
+    color: var(--laranja-escuro);
+    font-family: wetarial;
+
+}
+
+.main-formulario{
+    border: var(--laranja-escuro) 1.5rem solid;
+    border-radius: 2rem;
+    background-color: var(--cinza-escuro-meio-claro);
+    font-size: 4.5rem;
+    color: var(--laranja-escuro);
+    font-family: wetarial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+    box-shadow: 0rem 0rem 3rem;
+    font-family: "Rubik", sans-serif;
+    width: 70%;
+    padding: 6rem;
+
+}
+
+#cadeado-img-logo{
+    height: 18rem;
+}
+
+.main-formulario-informacoes{
+    background-color: rgb(32, 32, 32);
+    border:var(--laranja) dashed 0.8rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.main-formulario-label{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.main-formulario-label > input{
+    width: 70rem;
+    height: 6rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.main-formulario-label > label{
+    font-size: 3rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+.main-titulos{
+    font-size: 3rem;
+    color: var(--laranja);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+    font-weight: 900;
+    margin-top: 3rem;
+}
+
+.main-formulario-opcoes{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.main-formulario-opcoes > label > input{
+    height:3rem;
+    width: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    border: none;
+    
+}
+
+.main-formulario-opcoes > label{
+    font-size: 3rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+#complemento{
+    height: 20rem;
+}
+
+.main-divulgacao{
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+
+.main-divulgacao > h1{
+    font-size: 3.5rem;
+    font-family: wetarial;
+    
+}
+
+.main-divulgacao > p{
+    font-size: 2rem;
+    font-weight: 600;
+    
+    
+}
+
+.main-icones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#botao-enviar{
+    border-radius: 1rem;
+    width: 14rem;
+    height: 6rem;
+    font-size: 2rem;
+    font-family: wetarial;
+    border: none;
+    color: var(--branco);
+    background-color: var(--cinza-escuro);
+    transition: 0.5s;
+}
+
+#botao-enviar:hover{
+    transform: scale(1.1);   
+}

@@ -1,0 +1,567 @@
+
+
+#main-fundo-informe-seu-problema {
+    width: 100%;
+    height: 99rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(../img/background/background-mecanico.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-informe-seu-problema {  
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    
+}
+
+.main-informe{
+    width: 70rem;
+    font-family: wetarial;
+    font-size: 6rem;
+    color: var(--laranja-escuro);
+}
+
+.main-opcoes-corpo{
+    text-align: center;
+    border: var(--branco) solid;
+    color: var(--branco);
+    border-radius: 2rem;
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    background-color:var(--cinza);
+    width:46rem;
+}
+
+.main-opcoes-corpo > img{
+    height: 9rem;
+    width: 9rem;
+}
+
+.main-opcoes{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;  
+    align-items: center;
+    text-transform: none;
+}
+
+.main-opcoes> a{
+   color: var(--branco);
+   text-transform: none;
+}
+
+.main-opcoes > h2{
+    font-size: 4rem;      
+}
+
+.main-botao1{
+    background-color:var(--verde);
+    border: none;
+    border-radius: 1.5rem;
+    height:5rem;
+    width:13rem;
+}
+
+.main-botao1 {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--branco);
+    transition: 0.5s;
+}
+
+.main-botao1:hover {
+    background-color: rgb(17, 109, 37);
+    transform: scale(1.1);
+}
+
+.main-botao2{
+    background-color: var(--azul-claro);
+    border: none;
+    border-radius: 1.5rem;
+    height:5rem;
+    width:13rem;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--branco);
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.main-botao2:hover {
+    background-color: rgb(20, 75, 119);
+    transform: scale(1.1);
+}
+
+/*========================================================================*/
+
+
+/*================================SERVIÇOS================================*/
+#main-nossos-servicos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--cinza-escuro);   
+
+}
+
+#main-servicos {
+    margin: 5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--branco);
+    width: 75%;
+    text-align: center;
+    gap: 2rem;
+    border: var(--laranja-escuro) solid;
+    border-radius: 2rem;
+    padding: 3rem;
+    background-color: var(--cinza-escuro-meio-claro);
+}
+
+#main-explicacao-servicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#main-explicacao-servicos > h1{
+    color: var(--laranja-escuro);
+    font-size: 3.5rem;
+    font-family: wetarial;
+}
+
+#main-explicacao-servicos > p{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+#main-servicos > p{
+    font-size: 1.9rem;
+    letter-spacing: 0.5rem;
+    color:rgb(95, 95, 95);
+    font-weight: 550;
+
+}
+
+#main-tabela-de-servicos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.main-tipos-de-servicos{
+    display: flex;
+    background-color: var(--branco);
+    width: 28rem;
+    height: 35rem;
+    border-radius: 2.5rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+
+.main-tipos-de-servicos > p{
+    color: var(--preto);
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+}
+
+.main-tipos-de-servicos > div{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2.5rem;
+    height: 24.5rem;
+    width: 100%;
+    background-color: var(--laranja-escuro);
+
+}
+
+.main-tipos-de-servicos > div > p{
+    font-size: 1.8rem;
+    font-weight:600;
+
+}
+
+#servicos1{
+    border-radius: 2.5rem;
+    height: 18.5rem;
+    width: 100%;
+    background-image:url(../img/tabela-de-serviços/instalacao-de-olho-magico.jpg);  
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#servicos2{
+    border-radius: 2.5rem;
+    height: 18.5rem;
+    width: 100%;
+    background-image:url(../img/tabela-de-serviços/controle-remoto-portao.jpg);  
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#servicos3{
+    border-radius: 2.5rem;
+    height: 18.5rem;
+    width: 100%;
+    background-image:url(../img/tabela-de-serviços/abrir-cadeados.jpg);  
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#servicos4{
+    border-radius: 2.5rem;
+    height: 18.5rem;
+    width: 100%;
+    background-image:url(../img/tabela-de-serviços/abertura-de-cofre.jpg);  
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#servicos5{
+    border-radius: 2.5rem;
+    height: 18.5rem;
+    width: 100%;
+    background-image:url(../img/tabela-de-serviços/troca-de-segredos.jpg);  
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#servicos6{
+    border-radius: 2.5rem;
+    height: 18.5rem;
+    width: 100%;
+    background-image:url(../img/tabela-de-serviços/copia-de-chaves.jpg);  
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/*========================================================================*/
+
+
+/*============================AVALIAÇÃO==========================================*/
+#main-avaliacao{
+    width:100%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.main-avaliacao-das-pessoas{
+    display: flex;
+    width: 50%;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.main-corpo-avaliacao{
+    border: rgb(253, 114, 0) solid;
+    box-shadow: 0rem 0rem 2rem black;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column; 
+    background-color: white;  
+    padding: 2rem;
+    width: 25rem;
+    gap: 4rem;
+    height: 35rem;
+}
+
+.main-corpo-avaliacao > p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.main-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7rem;
+}
+
+.main-perfil > h2{
+    font-size: 2rem;
+}
+
+.main-perfil > img{
+    border-radius: 100%;
+    width: 8rem;
+    height: 8rem;
+
+}
+
+#main-texto-da-avaliacao{
+    background-color: rgb(179, 178, 178);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem -1rem 5rem 0.1rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+#main-texto-da-avaliacao> div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: var(--laranja) solid 1rem;
+    gap: 2rem;
+}
+
+#main-texto-da-avaliacao> div > a{
+    text-decoration: none;
+}
+
+#main-texto-da-avaliacao> div > h1{
+    font-size: 4rem;
+    color:var(--laranja-escuro);
+    font-family: wetarial;
+}
+
+/*========================================================================*/
+
+
+/*==================================PERGUNTAS E RESPOSTAS======================================*/
+#main-video-divulgo{
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    flex-direction: column;
+    font-family: wetarial;
+
+}
+.main-video-ajeitando{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-direction: column;
+    font-family: wetarial;
+    font-size: 2.5rem;
+    gap: 3rem;
+    border: var(--laranja-escuro) dashed 2rem;
+    border-radius: 1rem;
+    padding: 7rem;
+    background-color:var(--cinza-escuro-meio-claro);
+    color: var(--laranja);
+
+}
+
+.main-video-corpo{
+    background-color: rgb(48, 48, 48);
+    padding: 7rem;
+    border: var(--laranja-meio-claro) solid;
+    border-radius: 2rem;
+}
+
+.main-video-corpo > video{
+    width: 60rem;
+    border-radius: 1rem;
+}
+
+/*===================================================================================*/
+
+
+
+/*==================================PERGUNTAS E RESPOSTAS======================================*/
+#perguntas-recentes{
+    padding: 5rem;
+    width: 100%;
+    background-color: var(--laranja);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#main-borda-decoracao-pergunta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 3rem;
+    border: rgba(189, 60, 1, 0.616) solid;
+    border-radius: 2rem;
+    background-color: var(--laranja-meio-claro);
+
+}
+
+#main-perguntas-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 2rem;
+    gap: 2rem;
+}
+
+#main-perguntas-contato > h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.main-perguntas-titulo{
+    font-size: 2.5rem;
+    color: var();
+    font-family: wetarial;
+}
+
+#main-gpt-perguntas-respostas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.faq-item {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  .faq-question {
+
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    font-weight: 600;
+    width: 100%;
+  }
+
+  .faq-item:hover {
+    transform: scale(1.07);
+
+  }
+
+  .faq-answer {
+    max-height: 0; /* Altura inicial de 0 */
+    overflow: hidden; /* Esconde o conteúdo */
+    background-color: white;
+    color: #333;
+    padding: 0 15px; /* Padding horizontal apenas */
+    font-size: 14px;
+    transition: max-height 0.3s ease, padding 0.3s ease; /* Animação */
+  }
+
+  .faq-answer.open {
+    max-height: 150px; /* Altura máxima suficiente para o texto */
+    padding: 15px; /* Mostra o padding ao abrir */
+  }
+
+/*========================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*O CARROSEL NAO FOI EU QUE FIZ. EU PEGUEI NO CHAT GPT. NAO VOU GANHAR CREDITO DE ALGO QUE EU NAO FIZ*/
+.carrossel {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .carrossel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Animação suave */
+  }
+
+  .carrossel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .carrossel-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .carrossel-item p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  /* Botões de navegação */
+  .carrossel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .carrossel-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    
+  }
+
+  .carrossel-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+/*O CARROSEL NAO FOI EU QUE FIZ. EU PEGUEI NO CHAT GPT. NAO VOU GANHAR CREDITO DE ALGO QUE EU NAO FIZ*/
